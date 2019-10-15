@@ -1,7 +1,6 @@
 module.exports = {
   env: {
     es6: true,
-    jest: true,
     browser: true,
   },
   extends: ['airbnb', 'prettier', 'prettier/react'],
@@ -18,7 +17,7 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
-  plugins: ['react', 'jsx-a11y', 'import', 'react-hooks', 'prettier'],
+  plugins: ['babel', 'prettier', 'react', 'react-hooks'],
   rules: {
     'prettier/prettier': 'error',
     'react/jsx-filename-extension': ['error', { extensions: ['.js', '.jsx'] }],

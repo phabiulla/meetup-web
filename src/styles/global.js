@@ -12,14 +12,15 @@ export default createGlobalStyle`
   }
 
   html, body, #root{
-    height: 100%;
+    min-height: 100vh!important;
+    height: 100vh;
   }
 
   body{
     -webkit-font-smoothing: antialiased;
   }
 
-  body, input, button{
+  body, input, textarea, button{
     font: 14px 'Roboto', sans-serif;
   }
 
